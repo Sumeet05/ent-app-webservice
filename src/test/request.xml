@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+				  xmlns:gs="http://app.ent/webservice">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <gs:getCardChargeRequest>
+         <gs:number>444411112222</gs:number>
+      </gs:getCardChargeRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
